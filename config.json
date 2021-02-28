@@ -1,4 +1,3 @@
-{
     "host": "0.0.0.0",
     "port": 3000,
     "logpath": "logger.php",
@@ -25,7 +24,7 @@
     "slowBase": 4.5,
     "logChat": 0,
     "networkUpdateFactor": 40,
-    "maxHeartbeatInterval": 5000,
+    "maxHeartbeatInterval": 300000,
     "foodUniformDisposition": true,
     "virusUniformDisposition": false,
     "newPlayerInitialPosition": "farthest",
@@ -38,6 +37,6 @@
       "user": "root",
       "password": "DEFAULT",
       "database": "DEFAULT",
-      "debug": false
+      "debug": true
     }
 }
